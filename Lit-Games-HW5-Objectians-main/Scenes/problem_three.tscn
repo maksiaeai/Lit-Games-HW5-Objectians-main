@@ -11,6 +11,7 @@ script = ExtResource("1_354yi")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_aa3ml")]
 collision_mask = 3
+motion_mode = 0
 movement_speed = 150.0
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -36,9 +37,11 @@ Fix them so they work properly and obey the virtual laws of virtual physics."
 
 [node name="Crate2" parent="." instance=ExtResource("4_jxx4j")]
 position = Vector2(376, 376)
+gravity_scale = 1.0
 
 [node name="Crate" parent="." instance=ExtResource("4_jxx4j")]
 position = Vector2(400, 448)
+gravity_scale = 1.0
 
 [node name="Tree" type="Sprite2D" parent="."]
 position = Vector2(544, 352)
@@ -47,3 +50,4 @@ texture = ExtResource("5_5oy7u")
 
 [node name="Crate3" parent="." instance=ExtResource("4_jxx4j")]
 position = Vector2(392, 296)
+gravity_scale = 1.0
